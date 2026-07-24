@@ -1,3 +1,3 @@
 # Looping statements
+# while, for loop
 
-print('Hello World')

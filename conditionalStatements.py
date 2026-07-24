@@ -41,13 +41,15 @@
 #     print("The number is Positive!")
 # else:
 #     print('The number is Negative!')
-#
-# # Check the largest of two numbers
+
+# Check the largest of two numbers
 no1=int(input('Enter first no: '))
 no2=int(input('Enter second no: '))
 
-if no1>no2:
+if (no1>no2):
     print('First no is greater')
+elif (no1==no2):
+    print("Both are equal")
 else:
     print('Second no is greater')
 
