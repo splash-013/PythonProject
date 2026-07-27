@@ -10,5 +10,5 @@
 #Logical operator
 # AND, OR, NOT
 
-#Identiy operator
+#Identy operator
 # IS, IS NOT
