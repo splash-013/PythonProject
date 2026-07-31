@@ -9,7 +9,7 @@
 # i=int(input('Enter a number: ')) #initialization
 # while (i<=10): #condition
 #     print(i)
-#     i=i+1 #increment/decrement
+#     i=i+1 #increment/decrement or i+=1
 
 
 # for loop
@@ -24,10 +24,20 @@
 #     print(i)
 
 #print only odd numbers between 1 to 20
-for i in range(1,21,2):
+# for i in range(1,21,2):
+#     print(i)
+
+# break  - immediate stop
+# for i in range(100):
+#     if (i==45):
+#         break
+#     print(i)
+
+# continue - skip the condition
+for i in range(101):
+    if (i==45):
+        continue
     print(i)
-
-
 
 
 
