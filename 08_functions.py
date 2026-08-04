@@ -33,14 +33,14 @@ from pickle import GLOBAL
 #if the g and l variable names are same, the function will consider only the local variable
 
 #Example 2
-def text():
-    global a
-    a=100
-    print(a)
-text()
-
-print(a) #thought global variable is defined inside the function, it is global and can be accessed from anywhere
-
+# def text():
+#     global a
+#     a=100
+#     print(a)
+# text()
+#
+# print(a) #thought global variable is defined inside the function, it is global and can be accessed from anywhere
+ 
 
 
 
