@@ -9,6 +9,20 @@
 # sub()
 
 #Approach 3
-from ModulesAndPackages.calculatorFunctions import * #import all the functions/methods or class
+# from ModulesAndPackages.calculatorFunctions import * #import all the functions/methods or class
+# import calculatorFunctions2
+# add()
+# sub()
+# calculatorFunctions2.multi()
+# calculatorFunctions2.divide()
+
+#Approach 4
+#if both the modules have same name methods/functions
+from calculatorFunctions import *
 add()
 sub()
+from calculatorFunctions2 import *
+multi()
+divide()
+
+
