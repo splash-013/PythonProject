@@ -30,7 +30,7 @@ class Var:
     a,b=30,40 #class variables
     def sum(self,x,y): #local variables x and y
         print(x+y)
-        print(self.a+self.b)
+        print(self.a+self.b) #access class variables
         print(i+j)
         #print(globals()['i']+globals()['j']) #use if same variable names
 Var().sum(50,60)

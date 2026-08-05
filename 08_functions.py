@@ -1,12 +1,9 @@
 # functions is a set of code which contains some logic to perform an operation
-from pickle import GLOBAL
-
 
 #logic
 # a=int(input("Enter a first no: "))
 # b=int(input("Enter a second no: "))
 # c=int(input("Enter a third no: "))
-#
 # avg=(a+b+c)/3
 # print(avg)
 
@@ -40,7 +37,7 @@ from pickle import GLOBAL
 # text()
 #
 # print(a) #thought global variable is defined inside the function, it is global and can be accessed from anywhere
- 
+
 
 
 
