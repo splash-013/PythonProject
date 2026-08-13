@@ -7,7 +7,7 @@ def test_verify_elements(page:Page):
     #time.sleep(5) #seconds wait in python
     page.wait_for_timeout(5000) #wait in playwright
 
-    # 1) page.get_by_alt_name(), this is used for images
+    # 1) page.get_by_alt_text(), this is used for images
     # logo=page.get_by_alt_text('company-branding')
     # expect(logo).to_be_visible()
     # expect(page.get_by_alt_text('company-branding')).to_be_visible()
