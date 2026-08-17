@@ -17,7 +17,7 @@ def test_verify_checkbox(page:Page):
     # checkbox - variable that contains list of elements (locator)
 
     for action_checkbox in checkbox: # check all the checkboxes, perform action on individual checkbox in the list
-        action_checkbox.check()
+        action_checkbox.check() #action_checkbox is the variable for elements in checkbox variable
         expect(action_checkbox).to_be_checked() # assertion
     page.wait_for_timeout(3000)
 
@@ -25,6 +25,14 @@ def test_verify_checkbox(page:Page):
     for action_checkbox in checkbox[-3:]: # use slicing to select range
         action_checkbox.uncheck() # uncheck() uncheck already selected checkbox
     page.wait_for_timeout(3000)
+
+    # Toggle checkboxes
+    for action_checkbox in checkbox:
+        if action_checkbox.is_checked():
+            action_checkbox.uncheck()
+        else:
+            action_checkbox.check()
+    page.wait_for_timeout(5000)
 
 
 
