@@ -1,7 +1,8 @@
+import pytest
 from playwright.sync_api import Page, expect
 def test_radiobuttonactions(page:Page):
     page.goto('https://testautomationpractice.blogspot.com/')
-    #page.get_by_label('Male').check() # lable wont work here, check chatgpt
+    #page.get_by_label('Male').check() # label won't work here, check ChatGPT
     #page.locator('#male').check()
     #page.get_by_role('radio',name='Male', exact=True).check() #check notes for exact=True
 

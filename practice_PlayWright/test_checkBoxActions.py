@@ -17,7 +17,7 @@ def test_verify_checkbox(page:Page):
     # checkbox - variable that contains list of elements (locator)
 
     for action_checkbox in checkbox: # check all the checkboxes, perform action on individual checkbox in the list
-        action_checkbox.check()
+        action_checkbox.check() # checkbox is a list and action_checkbox is the variable used to access the data in the list
         expect(action_checkbox).to_be_checked() # assertion
     page.wait_for_timeout(3000)
 
