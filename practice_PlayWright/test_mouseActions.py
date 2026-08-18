@@ -35,7 +35,7 @@ def test_dragdrop(page:Page):
 
     source=page.locator('#draggable')
     target=page.locator('#droppable')
-    source.scroll_into_view_if_needed()
+    source.scroll_into_view_if_needed()  # page scroll to see the element
     page.wait_for_timeout(3000)
 
     # Approach 1
