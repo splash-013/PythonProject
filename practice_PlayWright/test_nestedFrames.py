@@ -8,7 +8,7 @@ def main_page(page:Page):
     page.goto('https://ui.vision/demo/webtest/frames/')
     return page
 
-@pytest.mark.skip
+#@pytest.mark.skip
 def test_frame1(main_page:Page):
     #page.goto('https://ui.vision/demo/webtest/frames/')
     #frame1=page.frame_locator("frame[src='frame_1.html']")
@@ -17,7 +17,7 @@ def test_frame1(main_page:Page):
     element1.fill("Hello World!!")
     frame1.wait_for_timeout(5000)
 
-@pytest.mark.skip
+#@pytest.mark.skip
 def test_frame2(main_page:Page):
     #page.goto('https://ui.vision/demo/webtest/frames/')
     frame2=main_page.frame(url='https://ui.vision/demo/webtest/frames/frame_2')
