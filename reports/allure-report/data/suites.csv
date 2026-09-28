@@ -1,0 +1,3 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","4533","test_login_json[firefox-qwerty@fmail.com-qwerty-invalid]","practice_PlayWright.dataDrivenTesting","2026-08-27","passed","2026-08-27","","test_dataDriven_excel","",""
+"","6463","test_login_json[firefox-userone_01@gmail.com-User@123-valid]","practice_PlayWright.dataDrivenTesting","2026-08-27","passed","2026-08-27","","test_dataDriven_excel","",""
