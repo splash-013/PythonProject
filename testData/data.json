@@ -1,0 +1,12 @@
+[
+    {
+        "username": "userone_01@gmail.com",
+        "password": "User@123",
+        "expected_success": "valid"
+    },
+    {
+        "username": "qwerty@fmail.com",
+        "password": "qwerty",
+        "expected_success": "invalid"
+    }
+]
