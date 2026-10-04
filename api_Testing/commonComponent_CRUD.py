@@ -6,11 +6,11 @@ from playwright.sync_api import Playwright
 from pytest_playwright.pytest_playwright import playwright
 
 # BASE URL
-base_url="https://restful-booker.herokuapp.com/booking"
+base_url="https://restful-booker.herokuapp.com"
 
 # UTILITY FUNCTION TO READ JSON
 def read_json(file_path):
-    file=open("file_path","r")
+    file=open(file_path,"r")
     return json.load(file)
 
 # FIXTURE TO CREATE REQUEST CONTEXT
