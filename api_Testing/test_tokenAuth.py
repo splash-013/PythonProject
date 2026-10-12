@@ -11,7 +11,7 @@ from playwright.sync_api import *
 
 def test_token_auth(playwright: Playwright):
     # Create your token from github
-    #token = "***REMOVED***"
+    token = " ADD TOKEN"
     request_context = playwright.request.new_context()
     response = request_context.get("https://api.github.com/user/repos",
                                    headers={"Authorization": f"Bearer {token}"})
