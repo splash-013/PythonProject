@@ -8,7 +8,7 @@ from pytest_playwright.pytest_playwright import playwright
 # BASE URL
 base_url="https://restful-booker.herokuapp.com"
 
-# UTILITY FUNCTION TO READ JSON
+# UTILITY FUNCTION TO READ AND LOAD JSON
 def read_json(file_path):
     file=open(file_path,"r")
     return json.load(file)
