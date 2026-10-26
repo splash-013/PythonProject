@@ -10,7 +10,7 @@
 #Logical operator
 # AND, OR, NOT
 
-#Identy operator
+#Identity operator
 # IS, IS NOT
 
 #f string

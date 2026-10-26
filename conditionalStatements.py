@@ -43,14 +43,28 @@
 #     print('The number is Negative!')
 
 # Check the largest of two numbers
-no1=int(input('Enter first no: '))
-no2=int(input('Enter second no: '))
-
-if (no1>no2):
-    print('First no is greater')
-elif (no1==no2):
-    print("Both are equal")
-else:
-    print('Second no is greater')
+# no1=int(input('Enter first no: '))
+# no2=int(input('Enter second no: '))
+#
+# if (no1>no2):
+#     print('First no is greater')
+# elif (no1==no2):
+#     print("Both are equal")
+# else:
+#     print('Second no is greater')
 
 # Check largest of three numbers
+a=float(input("Enter first no: "))
+b=float(input("Enter second no: "))
+c=float(input("Enter third no: "))
+
+if a>=b and a>=c:
+    print("a is greater")
+elif b>=a and b>=c:
+    print("b is greater")
+else:
+    print("c is greater")
+
+
+
+
